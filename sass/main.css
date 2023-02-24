@@ -1,0 +1,113 @@
+body {
+  background-color: #BAD7E9;
+}
+
+.wrapper {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2B3467;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+.wrapper div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.wrapper div input {
+  background-color: #eee;
+  font-size: 1.1rem;
+  border-style: none;
+  padding: 0.3rem;
+}
+.wrapper div input:hover {
+  background-color: #FCFFE7;
+}
+.wrapper div select {
+  padding: 0.3rem;
+  font-size: 1rem;
+}
+.wrapper .pRed {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  color: rgb(229, 46, 46);
+}
+.wrapper p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+.wrapper .none {
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
+.another {
+  margin-top: 0.3rem;
+  background-color: #93c6e5;
+}
+.another div {
+  padding: 0.5rem;
+}
+.another select {
+  padding: 0.4rem;
+}
+
+legend {
+  background-color: #1290de;
+  font-size: 1.2rem;
+  color: #fff;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+}
+
+form hr {
+  margin: 0.3rem;
+}
+
+.wrapperButton {
+  width: 100vw;
+  height: 4rem;
+}
+
+.btn {
+  background-color: rgb(253, 2, 2);
+  width: 7rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.btn:hover {
+  background-color: rgb(0, 255, 255);
+  color: #2B3467;
+}
+
+.left {
+  position: relative;
+  left: 3%;
+}
+
+.right {
+  position: absolute;
+  right: 3%;
+}
+
+.nextstep {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2B3467;
+}
+.nextstep label {
+  margin-left: 0.5rem;
+}/*# sourceMappingURL=main.css.map */
